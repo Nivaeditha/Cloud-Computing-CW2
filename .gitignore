@@ -2,3 +2,8 @@
 *.pyc
 *.pyo
 *~
+venv/
+.project
+*.pyc
+*.pyo
+*∼
