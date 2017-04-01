@@ -1,6 +1,7 @@
 from app import app
 from flask import render_template, request
 import unirest
+from app import simple
 from forms import MessageForm
 
 @app.route('/')
