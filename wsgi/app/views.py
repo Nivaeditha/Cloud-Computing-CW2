@@ -3,7 +3,7 @@ from flask import render_template, request
 import unirest
 from app import simple
 from forms import MessageForm
-#from app import database
+from app import database
 from flask_navigation import Navigation
 
 @app.route('/')
