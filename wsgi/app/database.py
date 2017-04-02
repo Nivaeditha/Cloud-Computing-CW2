@@ -4,7 +4,7 @@ from flask import jsonify
 import os
 
 app.config['MONGO_DBNAME'] = os.environ['OPENSHIFT_APP_NAME']
-app.config['MONGO_URI'] = os.environ['OPENSHIFT_MONGODB_DB_URL']+'?authSource=admin'
+app.config['MONGO_URI'] = os.environ['OPENSHIFT_MONGODB_DB_URL']+os.environ['OPENSHIFT_APP_NAME']+'?authSource=admin'
 
 mongo = PyMongo(app)
 
