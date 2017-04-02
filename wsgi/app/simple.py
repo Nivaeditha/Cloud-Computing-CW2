@@ -26,7 +26,7 @@ def getitem(obj, item, default):
     else:
         return obj[item]
 
-@app.route("/visualization")
+@app.route("/visualization/")
 def polynomial():
     """ Very simple embedding of a polynomial chart
     """
