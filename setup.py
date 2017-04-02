@@ -6,5 +6,5 @@ setup(name='YourAppName',
       author='Your Name',
       author_email='example@example.com',
       url='https://www.python.org/community/sigs/current/distutils-sig',
-      install_requires=['Flask','flask-wtf','flask-babel','markdown','flup','numpy','unirest','bokeh','Flask-PyMongo','pymongo','flask_pymongo'],
+      install_requires=['Flask','flask-wtf','flask-babel','markdown','flup','numpy','unirest','bokeh','flask_navigation','Flask_PyMongo','pymongo','flask_pymongo'],
       )
