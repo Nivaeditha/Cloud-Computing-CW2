@@ -32,5 +32,5 @@ def emotion_post():
 
 
 nav = Navigation(app)
-nav.Bar('top', [nav.Item('Home', 'index'),nav.Item('Emotion App', 'emotion'),nav.Item('visualisation','polynomial')])
+nav.Bar('top', [nav.Item('Home', 'index'),nav.Item('Emotion App', 'emotion'),nav.Item('visualisation','polynomial'),nav.Item('database sample','get_sample_document')])
 
