@@ -2,6 +2,7 @@
 {% block title %}<img src="{{ url_for('static', filename = 'img/'+mood+'_face.jpeg')}}", width=80, height=60, quality=95 />
 {% endblock %}
 {% block content %}
+<p>The text you enter here is passed to mashape's api which will return sentiment values according to which we identify an appropriate image to display</p>
 <form action="" method="POST">
  	{{ form.csrf_token }}
  	{{ form.message.label }} 
